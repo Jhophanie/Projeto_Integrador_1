@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#955F1F;
+    padding: 10px;
+}
+body{
+    background-color: #F9D897;
+}
+img{
+    border-radius: 30px;
+    outline: none;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+h1{
+    color: #F9D897;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D3303;
+    background-color: #F9D897;
+}
+.button-header{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+    font-size: 20px;    
+    text-decoration: none;
+}
+
+.btn-one,.btn-two, .btn-three, .btn-four{
+    
+    background-color: #955F1F;
+    border-radius:35px;
+    color: #F9D897;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-one:hover, .btn-two:hover, .btn-three:hover, .btn-four:hover{
+    color: red;    
+}
+
+.info{
+    width: 1194px;
+    height: 600px;
+    background-color:#F9F4CF;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.photo-info{
+  height: 125px;
+  border-radius:100px ;
+  padding:20px;
+  margin-left: 50px;
+}
+
+.photo-info-pr{
+    display: block;
+}
+
+.pr{
+    font-family:'Ingrid Darling', cursive; 
+    color:#5D3303;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+label{
+    font-size: 17px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #5D3303;
+}
+
+form{
+   display: block;
+   margin: auto;
+   
+}
+
+.form-input{
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+    padding-top: 20px;
+}
+.inputs{
+    display: block;
+    padding: 9px;
+    border:none;
+    background-color: #F9F4CF;
+    border-bottom:1px solid #5D3303;
+    outline: none;
+    font-size: 17px;
+}
+.inputs:hover{
+    background-color: rgb(11, 69, 34);
+    color: white;
+}
+
+#senha,#email,#name{
+    width:850px;
+}
+#telefone{
+    width:850px;
+}
+#senha-conf{
+    width: 965px;
+}
+
+.buttons{
+   display: flex;
+   justify-content: center;
+   gap:10px;
+   margin: auto;
+   padding-top:10px;
+   height: 60px;
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    width: 180px;
+    background-color: #955F1F;
+    color: #F9D897;
+    font-family:'Ingrid Darling', cursive; 
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(11, 69, 34);
+  color: white;
+}
+
+footer{
+    height: 85px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D3303;
+    background-color: #F9D897;
+}
