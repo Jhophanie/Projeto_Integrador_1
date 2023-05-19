@@ -12,13 +12,6 @@ body{
     background-color: #F9D897;
 }
 
-img{
-    border-radius: 30px;
-    outline: none;
-    margin: auto;
-    padding-top: 10px;
-    margin-top: 10px;
-}
 h1{
     color: #F9D897;
     font-size: 45px;
@@ -66,6 +59,27 @@ h2{
     border-radius: 20px;
     display: flex;
 }
+
+h3{
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #5D3303;
+}
+
+img{
+     margin: auto;
+     display: flex;
+     border-radius: 20%;
+     height: 160px;
+     width: 190px;
+     padding-top: 30px;
+
+}
+
 footer{
     margin-top:50px;
     color: #5D3303;
