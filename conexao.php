@@ -1,15 +1,10 @@
 <?php
 
-$hostname = 'Localhost';
-$bancodedados = 'projetointegrador';
-$usuario= 'root';
-$senha= '';
+$usuario = 'root';
+$senha = '';
+$database = 'projetointegrador';
+$host = 'localhost';
 
-
-$mysqli = new mysqli($hostname, $usuario, $senha, $bancodedados);
-
-if($mysqli->connect_errno){
-    echo "falha ao conectar: (" . $mysqli->connect_errno .") " . $mysqli->connect_error;
-}
+$conn = mysqli_connect($host, $usuario, $senha, $database);
 
 ?>
