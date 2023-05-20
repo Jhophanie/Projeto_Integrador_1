@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #F9D897;
+}
 header{
     background-color:#955F1F;
     padding: 10px;
-}
-
-body{
-    background-color: #F9D897;
 }
 
 img{
@@ -29,7 +28,7 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding-top: 30px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #5D3303;
     background-color: #F9D897;
@@ -53,23 +52,16 @@ h2{
     text-decoration: none;
 }
 
-.btn-one:hover, .btn-two:hover, .btn-three:hover, .btn-four:hover{
+.btn-one:hover, .btn-two:hover,.btn-three:hover, .btn-four:hover{
     color: red;    
 }
 
-.info{
-    width: 994px;
-    height: 600px;
-    background-color:#F9F4CF;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 20px;
-    display: flex;
-}
 footer{
-    margin-top:50px;
-    color: #5D3303;
-    font-size: 20px;
+    height: 85px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D3303;
+    background-color: #F9D897;
 }
