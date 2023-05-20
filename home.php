@@ -23,10 +23,11 @@
         <section> 
           <h1> Miii-Auau Migos</h1>
            <div class="button-header"> 
-              <a class="btn-one" href="home.html">Home</a>
-              <a class="btn-two" href="cadastro.html">Cadastrar</a>
-              <a class="btn-three" href="index.html">Login</a>
-              <a class="btn-four" href="sobrenos.html">Sobre Nós</a>
+           <a class="btn-one" href="home.php">Home</a>
+           <a class="btn-two" href="cadastro.php">Cadastrar</a>
+           <a class="btn-three" href="index.php">Login</a>
+           <a class="btn-three" href="tabela.php">Meus Registros</a>
+           <a class="btn-four" href="sobrenos.html">Sobre Nós</a>
           </div>
         </div>
     </header>
@@ -34,7 +35,7 @@
     <div> 
       <div class="container">
         <h2>
-          Bem vindo, <?php echo $_SESSION['nome_tutor']; ?> ! Vamos cuidar do nosso melhor amigo?
+          Bem vindo, <?php echo $_SESSION['tutor']; ?> ! Vamos cuidar do nosso melhor amigo?
         </h2>
         </div>
       </div>
@@ -48,7 +49,7 @@
       <div class="buttons">
         <a class="btn-cadastrar" href="calendario.html"> <b>Calendário de Vacinação </b></button>
         <a class="btn-verificar" href="vacinar.html"><b>A importância de vacinar</b></button>
-        <a class="btn-registrar" href="minhasvacinas.html"><b>Minhas Vacinas</b></button>
+        <a class="btn-registrar" href="minhasvacinas.php"><b>Minhas Vacinas</b></button>
       </div>
    </div>
     
