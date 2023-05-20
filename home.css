@@ -54,7 +54,6 @@ h2{
 .btn-one:hover, .btn-two:hover,.btn-three:hover, .btn-four:hover{
     color: red;
  }
-
 .photos{
     margin: auto;
     display: flex;
