@@ -1,45 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A importancia de Vacinar</title>
-    <link rel="stylesheet" type="text/css" href="vacinar.css">
-</head>
-<body>
-    <header> 
-        <div> 
-         <section> 
-           <h1> Miii-Auau Migos</h1>
-            <div class="button-header"> 
-               <a class="btn-one" href="home.php">Home</a>
-               <a class="btn-two" href="cadastro.php">Cadastrar</a>
-               <a class="btn-three" href="index.php">Login</a>
-               <a class="btn-three" href="tabela.php">Meus Registros</a>
-               <a class="btn-four" href="sobrenos.html">Sobre Nós</a>
-           </div>
-         </div>
-     </header>
-     <div>
-        <h2>A importância de Vacinar</h2>
-      </div>
-       <div class="info">
-        <div>
-            <img class="vacina" alt="animais unidos importância de vacinar" src="img/transparente.png">
-            </div>
-       <p>O objetivo da vacinação é gerar um primeiro contato do sistema imunológico com o patógeno em questão, fazendo com que ele o “leia”, o decifre e, assim, guarde informações sobre a possível doença em sua memória imunitária. Isso é feito de forma muito sutil e branda, mas evita infecções complicadas caso o animal entre em contato com a doença posteriormente.
-        <br>
-        <br>
-        Em alguns casos, a vacinação não evita que o animal se contagie com determinada doença. No entanto, abranda consideravelmente os seus sintomas, fazendo com que o pet não corra risco de vida. Em outros, imuniza o animal completamente pelo período estipulado pelo fabricante.
-        <br>
-        <br>
-        Por isso, a vacinação assim como a castração, uma boa alimentação e, claro, muito amor e carinho é um dos cuidados essenciais para o bem-estar de nossos pets. Com ela, prevenimos problemas sérios de saúde e garantimos muito mais bons anos ao lado de nossos companheiros de outra espécie.</p>
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#955F1F;
+    padding: 10px;
+}
+body{
+    background-color: #F9D897;
+}
 
-    </div>        
-</body>
+h1{
+    color: #F9D897;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D3303;
+    background-color: #F9D897;
+}
+.button-header{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+    font-size: 20px;    
+    text-decoration: none;
+}
 
-<footer > 
-    <div>Desenvolvido pelos alunos da Univesp PI1 @2023</div>
-   </footer>
-</html>
+.btn-one,.btn-two, .btn-three, .btn-four{
+    
+    background-color: #955F1F;
+    border-radius:35px;
+    color: #F9D897;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn-one:hover, .btn-two:hover, .btn-three:hover, .btn-four:hover{
+    color: red;    
+}
+
+.info{
+    width: 994px;
+    height: 600px;
+    background-color:#F9F4CF;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+p{
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D3303;
+}
+
+img{
+    margin-top: 35%;
+    margin-left: 15%;
+}
+footer{
+    margin-top:50px;
+    color: #5D3303;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
