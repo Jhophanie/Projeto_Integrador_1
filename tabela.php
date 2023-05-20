@@ -55,6 +55,10 @@
   }
 ?>
       </table>
+
+      <footer > 
+        <div>Desenvolvido pelos alunos da Univesp PI1 @2023</div>
+       </footer>
 </body>
 </html>
 
